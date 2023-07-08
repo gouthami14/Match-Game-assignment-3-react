@@ -250,7 +250,7 @@ const imagesList = [
 // Replace your code here
 class App extends Component {
   state = {
-    isTrue: false,
+    isTrue: true,
     category: 'FRUIT',
     score: 0,
     time: 60,
@@ -375,7 +375,7 @@ class App extends Component {
           )}
           {isTrue && (
             <div className="second-div">
-              <ing
+              <img
                 src="https://assets.ccbp.in/frontend/react-js/match-game-trophy.png"
                 className="trophy-image"
                 alt="trophy"
